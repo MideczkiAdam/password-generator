@@ -1,0 +1,107 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: monospace;
+    background-color: black;
+}
+
+
+#title{
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#main{
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#container1{
+    margin-bottom: 30px;
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 40px;
+}
+
+.therightside{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: greenyellow;
+}
+
+#container2{
+    color: white;
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+h1{
+    font-size: 25px;
+    color: gray;
+}
+
+#strength{
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#strength p {
+    font-size: 15px;
+}
+
+#charlen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+#charlen p{
+    font-size: 15px;
+    
+}
+
+#gen{
+
+    height: 50px;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: greenyellow;
+}
+
+#csikok{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+#csikok div{
+    border: 1px solid white;
+    width: 3px;
+    height: 15px;
+}
+
+#slide{
+    height: 5px;
+}
+

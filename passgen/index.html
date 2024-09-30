@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styli.css">
+    <title>passgen</title>
+</head>
+<body>
+    <p id="title">Password Generator</p>
+
+    <div id="main">
+        <div id="container1" >
+            <h1 id="password">P4$5W0rD!</h1>
+            <span class="therightside"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></span>
+        </div>
+    
+        <div id="container2">
+            <div id="charlen">
+                <p>Character Lenght</p>
+            <span class="therightside" id="lengthNum">0</span>
+            </div>
+
+            <input type="range" id="slide" min="1" max="20" value="10">
+            
+            <div id="include">
+                <p><input type="checkbox" id="upper">
+                    Include Uppercase Letters</p>
+            
+                    <p><input type="checkbox" name="" id="lower">
+                    Include Lowercase Letters</p>
+            
+                    <p><input type="checkbox" name="" id="nums">
+                    Include Numbers</p>
+            
+                    <p><input type="checkbox" name="" id="symbols">
+                    Include Symbols</p>
+            </div>
+    
+            <div id="strength">
+                <p>STRENGTH</p>
+                <div id="csikok">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+    
+            <button id="gen">GENERATE -></button>
+        </div>
+    </div>
+
+    <script src="password.js" defer></script>
+</body>
+</html>
